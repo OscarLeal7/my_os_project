@@ -1,0 +1,1 @@
+[bits 32]\n\nsection .text\n\n_start:\n    ; Bootloader code

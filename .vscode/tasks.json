@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/src/kernel/main.cpp",
+                "-I${workspaceFolder}/include",
+                "-o",
+                "${workspaceFolder}/build/kernel.bin"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compila o código C++ do kernel"
+        }
+    ]
+}

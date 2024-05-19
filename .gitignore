@@ -1,0 +1,12 @@
+# Arquivo .gitignore gerado automaticamente
+
+# Arquivos de compilação
+build/
+
+# Arquivos de saída
+*.bin
+
+# Arquivos temporários
+*.o
+*.out
+

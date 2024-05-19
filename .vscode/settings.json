@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp",
+        "*.asm": "assembly"
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include"
+    ],
+    "C_Cpp.default.intelliSenseMode": "gcc-x64"
+}
